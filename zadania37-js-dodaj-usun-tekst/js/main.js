@@ -1,5 +1,10 @@
-let element = document.getElementById("dodaj");
+let dodaj = document.getElementById("dodaj");
+let usun = document.getElementById("usun");
 
-element.addEventListener("click", function () {
+dodaj.addEventListener("click", function () {
   document.getElementById("tekst").innerHTML = "Hej";
+});
+
+usun.addEventListener("click", function () {
+  document.getElementById("tekst").innerHTML = "";
 });
