@@ -1,7 +1,3 @@
-document.getElementById("opis").onclick = function () {
-  myfunction();
-};
-
-function myfunction() {
+document.getElementById("button").onclick = function () {
   document.getElementById("opis").innerHTML = "Coś działa ?";
-}
+};
