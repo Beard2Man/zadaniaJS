@@ -1,8 +1,11 @@
 const low = 100;
 const high = 200;
 let num = 190;
-if (num > low && num < high) {
-  console.log("Liczba znajduje się w przedziale");
-} else {
-  console.log("Liczba nie znajduje się w przedziale");
+
+function test(num, low, high) {
+  if (num > low && num < high) {
+    return true;
+  }
+  return false;
 }
+console.log(test(num, low, high));

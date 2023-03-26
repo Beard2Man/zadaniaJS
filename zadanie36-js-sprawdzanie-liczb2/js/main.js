@@ -1,9 +1,14 @@
-let x = 0;
-let y = 10;
+let num1 = 0;
+let num2 = 10;
 const wynik = 20;
 
 function test(num1, num2) {
-  return x == wynik || y == wynik || x + y == wynik || x + y < wynik;
+  return (
+    num1 == wynik ||
+    num2 == wynik ||
+    num1 + num2 == wynik ||
+    num1 + num2 < wynik
+  );
 }
 
-console.log(test(x, y));
+console.log(test(num1, num2));
