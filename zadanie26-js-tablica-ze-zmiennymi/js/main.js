@@ -1,4 +1,5 @@
 let one = 1;
 let two = 2;
 let three = 3;
-console.log(one, two, three);
+let tabl = [one, two, three];
+console.log(tabl);
